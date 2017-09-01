@@ -17,7 +17,7 @@
 </jar>
 </target>
 <target name="run" depends="jar">
-<java jar="${dist}/Hello.jar" fork="true"/>
+<java jar="${dist}/HelloWorld.jar" fork="true"/>
 </target>
 <target name="clean">
 <delete dir="${dist}"/>
